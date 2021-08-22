@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <title>Tomoyuki Kambe</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet">
+  </head>
+
+  <body>  
+<header>
+  <div class="collapse bg-dark" id="navbarHeader">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-md-7 py-4">
+          <h4 class="text-white">About</h4>
+          <p class="text-muted">This homepage is my homework in week8 of CS50 at Harvard College. It is made from the album example of ©Bootstrap.</p>
+          <p class="text-muted">Enjoy paintings and papercuts from my favorite artists.</p>
+          <p class="text-muted" id="about01">Mark Ogawa</p>
+        </div>
+        <div class="col-sm-4 offset-md-1 py-4">
+          <h4 class="text-white">Contact</h4>
+          <ul class="list-unstyled">
+            <li><a href="https://hirota-b.co.jp/en/" class="text-white, insta">Gallery Hirota Fine Art</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="navbar navbar-dark bg-dark shadow-sm">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center">
+        <!--<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2" viewBox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>-->
+        <strong>Tomoyuki Kambe</strong>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section class="py-2 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-light">Tomoyuki Kambe</h1>
+        <p class="lead text-muted" id ="Preamble1">I came across his works at the Xmas Art Festa in Ginza, December 2016. His paintings were expensive for me, that time. I was not sure whether to buy one or not, when I returned after visiting another gallery, I found his works have sold out. I was so disappointed. I could not see his work since, because he had been working on a big project.</p>
+        <p class="lead text-muted" id ="Preamble2">I met his works again at Art Fair Tokyo 2019. I finally welcomed his work into my home, then.</p>
+      </div>
+      <p><a href="#" class="btn btn-primary my-2" id="dazaifu">BIG PROJECT</a></p>
+
+    </div>
+  </section>
+
+  <div class="album py-5 bg-light">
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <img src="images/kambe1S.jpg" alt="kambe1" class="card-img-top">   
+              <h5 class="card-title">Life without Stagnation</h5>
+              <p class="card-text">Mr. Kobe's method is to apply foil to the base, then paint, apply very thin Japanese paper, and paint again. By repeating this process over and over, a unique sense of air and perspective was created.</p>
+            </div>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#image_Modal1">View</button>
+              </div>
+            </div>  
+            <div class="modal fade" id="image_Modal1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel1">
+                <div class="modal-dialog modal-lg modal-middle">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="myLargeModalLabel1">Life without Stagnation</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="images/kambe1L.JPG" alt="kambe1" class="img-fluid center-block" >
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>       
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <img src="images/kambe2S.jpg" alt="kambe2" class="card-img-top">  
+              <h5 class="card-title">life without stagnation</h5>
+              <p class="card-text">Mr. Kobe's worldview is connected to the concept that God dwells in all things.</p>
+            </div>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#image_Modal2">View</button>
+              </div>
+            </div>  
+            <div class="modal fade" id="image_Modal2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel2">
+                <div class="modal-dialog modal-lg modal-middle">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="myLargeModalLabel2">Life without Stagnation</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="images/kambe2L.JPG" alt="kambe2" class="img-fluid center-block" >
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>       
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <img src="images/kambe3S.jpg" alt="kambe3" class="card-img-top">   
+              <h5 class="card-title">life without stagnation</h5>
+              <p class="card-text">The activity of life that unfolds on the painting extracted with the color of rock paints is the very activity of the everyday life we lived.</p>
+            </div>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#image_Modal3">View</button>
+              </div>
+            </div>  
+            <div class="modal fade" id="image_Modal3" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel3">
+                <div class="modal-dialog modal-lg modal-middle">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="myLargeModalLabel3">Life without Stagnation</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="images/kambe3L.JPG" alt="kambe3" class="img-fluid center-block" >
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>       
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <img src="images/kambe4S.jpg" alt="kambe4" class="card-img-top">    
+              <h5 class="card-title">@Art Fair Tokyo 2021</h5>
+              <p class="card-text">With Mr.Tomoyuki Kambe.</p>
+            </div>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#image_Modal4">View</button>
+              </div>
+            </div>  
+            <div class="modal fade" id="image_Modal4" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel4">
+                <div class="modal-dialog modal-lg modal-middle">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="myLargeModalLabel4">@Art Fair Tokyo 2021</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="images/kambe4L.JPG" alt="kambe4" class="img-fluid center-block" >
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>       
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <img src="images/kambe5S.jpg" alt="kambe5" class="card-img-top">  
+              <h5 class="card-title">@Art Fair Tokyo 2021</h5>
+              <p class="card-text">With Mr.Tomoyuki Kambe and my wife.</p>
+            </div>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#image_Modal5">View</button>
+              </div>
+            </div>  
+            <div class="modal fade" id="image_Modal5" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel5">
+                <div class="modal-dialog modal-lg modal-middle">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="myLargeModalLabel5">The rim of the mind 2</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="images/kambe5L.JPG" alt="kambe5" class="img-fluid center-block" >
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>       
+        </div>
+
+      </div>
+    </div>
+  </div>  
+</main>
+
+<footer class="text-muted py-5">
+  <div class="container">
+    <p class="float-end mb-1">
+      <a href="index.html">Back to index</a>
+    </p>
+    <p class="mb-1">This homepage is made from the album example of &copy;Bootstrap.</p>
+    <p class="mb-0">New to Bootstrap? Read their <a href="https://getbootstrap.com/docs/5.1/getting-started/introduction/">getting started guide</a>.</p>
+  </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+<script src="main.js"></script>
+  
+  </body>
+</html>
